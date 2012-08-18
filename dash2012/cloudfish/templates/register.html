@@ -22,8 +22,15 @@
                 <input required type="password" name="confirm-password" id="confirm-password"/>
             </div>
 
+            <div class="form-row">
+                {%  if errors %}
+                    <span class="error">{{ errors }}</span>
+                {%  endif %}
+            </div>
+
             <button type="submit" name="submit" class="blue-btn">Done!</button>
             <div class="clear"></div>
+
         </form>
 
     </div>

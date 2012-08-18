@@ -400,3 +400,5 @@ h4 {font-size: 18px;}
 .auth-block label {font-size: 14px;}
 
 button.blue-btn { float: right; padding: 6px 8px; margin-right: 0; }
+
+span.error  {color: red;}
